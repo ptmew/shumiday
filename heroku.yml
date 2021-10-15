@@ -1,0 +1,9 @@
+# Reference the Dockerfiles to build into Docker images 
+build:
+  docker:
+    ghos: Dockerfile
+  config:
+    GHOST_storage__active: ghost-storage-github
+    GHOST_GITHUB_REPO: ghost-assets
+    GHOST_GITHUB_OWNER: ptmew
+    GHOST_GITHUB_TOKEN: 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
